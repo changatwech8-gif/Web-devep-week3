@@ -1,0 +1,146 @@
+body{
+    background-color: #F4F7FB;
+    color: #374151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1{ 
+    color: white;
+    background-color: green;
+    padding: 20px; 
+    border-radius: 12px; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700; }
+
+    h2 {color: #17324D;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+label,
+input,
+select,
+button,
+table {
+    font-family: 'Poppins', sans-serif;}
+
+.add-expense { 
+    color: #374151; 
+    background-color: #FFFFFF; 
+    padding: 20px; 
+    border: 1px solid #D6E0EA;
+    border-radius: 10px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+}
+
+#your-expenses { 
+    color: #374151; 
+    background-color: #FFFFFF; 
+    padding: 20px;
+    border: 1px solid #D6E0EA; 
+    border-radius: 12px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+input, select, button {
+    font-size: 'Popoppins', sans-serif;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Popppins', sans-serif;
+}
+
+th, td { 
+    border: 1px solid #D6E0EA; 
+    padding: 8px;
+    text-align: left; 
+}
+
+thead { 
+    background-color: #17324D; 
+    color: #FFFFFF; 
+}
+
+tr:nth-child(even) 
+    {background-color: #EAF2FF;}
+
+
+tr:hover{
+   background-color: #D6E7FF;
+}
+button {
+    cursor: pointer;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #1D4ED8;
+}
+
+#your-expenses td{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.add-expense > form{
+    font-weight: bold;
+}
+
+input:not([type="submit"])
+{border: 1px solid #D6E0EA;
+padding: 8px;
+border-radius: 5px;}
+
+input:focus{
+    border-color: #2563EB;
+    outline: none;
+}
+
+select {
+border: 1px solid #D6E0EA;
+padding: 8px;
+border-radius: 5px;
+}
+
+select:focus{
+    border-color: #2563EB;
+    outline: none; }
+
+    summary{
+        font-family: 'poppins', sans-serif;
+        font-weight: 600;
+        color: #17324D; }
+
+        details p {
+            font-family: 'poppins', sans-serif; }
+        
+    
+
+
+
+
+
